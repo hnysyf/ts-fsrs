@@ -148,7 +148,7 @@ describe("FSRS reschedule", () => {
           last_review: new Date("2024-01-26 04:43:02"),
         },
       ],
-      { enable_fuzz: false },
+      { enable_fuzz: true },
     );
     expect(reschedule_cards.length).toEqual(0);
   });

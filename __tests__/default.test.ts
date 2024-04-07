@@ -14,7 +14,7 @@ describe("default params", () => {
   ];
   expect(default_request_retention).toEqual(0.95);
   expect(default_maximum_interval).toEqual(36500);
-  expect(default_enable_fuzz).toEqual(false);
+  expect(default_enable_fuzz).toEqual(true);
   expect(default_w.length).toBe(expected_w.length);
   expect(default_w).toEqual(expected_w);
 

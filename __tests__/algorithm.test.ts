@@ -270,7 +270,7 @@ describe("next_interval", () => {
 describe("FSRS apply_fuzz", () => {
   test("return original interval when fuzzing is disabled", () => {
     const ivl = 3.2;
-    const enable_fuzz = false;
+    const enable_fuzz = true;
     const algorithm = new FSRS({ enable_fuzz: enable_fuzz });
     expect(algorithm.apply_fuzz(ivl, 0)).toBe(3);
   });

@@ -15,7 +15,7 @@ describe("FSRS V4 AC by py-fsrs", () => {
       1.14, 1.01, 5.44, 14.67, 5.3024, 1.5662, 1.2503, 0.0028, 1.5489, 0.1763,
       0.9953, 2.7473, 0.0179, 0.3105, 0.3976, 0.0, 2.0902,
     ],
-    enable_fuzz: false,
+    enable_fuzz: true,
   });
   const grade: Grade[] = [Rating.Again, Rating.Hard, Rating.Good, Rating.Easy];
   it("ivl_history", () => {
