@@ -1,7 +1,7 @@
 import { Card, DateInput, FSRSParameters, State } from "./models";
 import { fixDate } from "./help";
 
-export const default_request_retention = 0.9;
+export const default_request_retention = 0.95;
 export const default_maximum_interval = 36500;
 export const default_w = [
   0.5701, 1.4436, 4.1386, 10.9355, 5.1443, 1.2006, 0.8627, 0.0362, 1.629,
