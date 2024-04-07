@@ -7,7 +7,7 @@ export const default_w = [
   0.5701, 1.4436, 4.1386, 10.9355, 5.1443, 1.2006, 0.8627, 0.0362, 1.629,
   0.1342, 1.0166, 2.1174, 0.0839, 0.3204, 1.4676, 0.219, 2.8237,
 ];
-export const default_enable_fuzz = false;
+export const default_enable_fuzz = true;
 
 export const FSRSVersion: string = "3.5.3";
 

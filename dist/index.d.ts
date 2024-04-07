@@ -84,7 +84,7 @@ declare class SchedulingCard {
 declare const default_request_retention = 0.95;
 declare const default_maximum_interval = 36500;
 declare const default_w: number[];
-declare const default_enable_fuzz = false;
+declare const default_enable_fuzz = true;
 declare const FSRSVersion: string;
 declare const generatorParameters: (props?: Partial<FSRSParameters>) => FSRSParameters;
 /**
