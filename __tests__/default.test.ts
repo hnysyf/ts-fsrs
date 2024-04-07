@@ -12,7 +12,7 @@ describe("default params", () => {
     0.5701, 1.4436, 4.1386, 10.9355, 5.1443, 1.2006, 0.8627, 0.0362, 1.629,
     0.1342, 1.0166, 2.1174, 0.0839, 0.3204, 1.4676, 0.219, 2.8237,
   ];
-  expect(default_request_retention).toEqual(0.9);
+  expect(default_request_retention).toEqual(0.95);
   expect(default_maximum_interval).toEqual(36500);
   expect(default_enable_fuzz).toEqual(false);
   expect(default_w.length).toBe(expected_w.length);
